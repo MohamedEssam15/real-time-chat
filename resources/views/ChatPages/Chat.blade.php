@@ -17,9 +17,7 @@
               </ul>
               <div class="dropdown">
                 <div style="margin-right: 10px;" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{-- if there is notify color this --}}
-                <i class="far fa-bell fa-2x" style="color: #b4b2b2 ;" ></i>
-                <span class="have_notify"></span>
+
 
                 </div>
 
@@ -43,6 +41,8 @@
 
             </div>
         </nav>
+        <br>
+
 		<div class="container-fluid h-100">
             <div class="row justify-content-center h-100">
             @livewire('friends-list')

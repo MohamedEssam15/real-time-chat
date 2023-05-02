@@ -82,7 +82,7 @@ class FriendsChat extends Component
 
 
         if(isset($this->masse)){
-        event(new \App\Events\Message($this->masse,$this->chat_id,Auth::user()->id));
+        //event(new \App\Events\Message($this->masse,$this->chat_id,Auth::user()->id));
 
        //check if chat is exist or not?
 if(chat::where('id', '=', $this->chat_id)->exists()){
